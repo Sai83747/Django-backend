@@ -1,0 +1,11 @@
+django
+djangorestframework
+mysqlclient
+firebase-admin
+python-dotenv
+djangorestframework-simplejwt
+Django
+django-filter
+
+django-cors-headers
+djangorestframework-simplejwt

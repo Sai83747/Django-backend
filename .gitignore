@@ -1,0 +1,22 @@
+# Environment configuration
+.env
+.env.*
+
+# Firebase credentials
+firebase_credentials.json
+utils/firebase_credentials.json  # or backend/utils/firebase_credentials.json if you moved it
+
+# Django secret files
+db.sqlite3
+
+# Python stuff
+venv/
+__pycache__/
+*.py[cod]
+
+# Docker volumes
+db_data/
+
+# System files
+.DS_Store
+Thumbs.db
