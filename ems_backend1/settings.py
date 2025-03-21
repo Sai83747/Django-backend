@@ -126,7 +126,7 @@ CORS_ALLOW_HEADERS =  [
 CORS_ALLOW_CREDENTIALS = True
 USE_TZ = True
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Frontend (React)
+    "https://eventbookingfe.web.app",  # Frontend (React)
 ]
 
 CORS_ALLOW_CREDENTIALS = True  # Important for cookies

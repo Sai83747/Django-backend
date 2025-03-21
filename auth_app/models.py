@@ -68,7 +68,8 @@ class StaffTask(models.Model):
     due_date = models.DateTimeField(null=True, blank=True)
     status = models.CharField(max_length=20, choices=TASK_STATUS_CHOICES, default='pending')
     progress_percentage = models.PositiveIntegerField(default=0)  # Between 0-100
-
+    rating= models.PositiveIntegerField(default=0)
+    feedback = models.TextField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
